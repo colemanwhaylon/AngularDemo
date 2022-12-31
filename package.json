@@ -11,6 +11,7 @@
     "e2e": "ng e2e"
   },
   "dependencies": {
+    "@angular-devkit/build-angular": "^15.0.4",
     "@angular/animations": "^15.0.2",
     "@angular/common": "^15.0.2",
     "@angular/compiler": "^15.0.2",
