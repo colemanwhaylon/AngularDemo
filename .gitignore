@@ -282,3 +282,57 @@ node_modules/*.*
 .angular/cache/15.0.4/babel-webpack/fc219f5141a2dff2915319f0e7fa51c03f34eba74c3c92a6cab9b48c9161fab5.json
 .angular/cache/15.0.4/babel-webpack/fddd0a471ac25293e9615a9e16ee6113614631901e315f329b9ab1157dcc1ecd.json
 .angular/cache/15.0.4/babel-webpack/ff8764a1b1aafb68671cf1a8eb2713c352fe06e687f0ce6b8cd304f7d0533776.json
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+.angular/cache/15.0.4/angular-webpack/8c86f9a16fb1d13717a44ae13f5dc2aef5eeaa8f/0.pack
+.angular/cache/15.0.4/angular-webpack/8c86f9a16fb1d13717a44ae13f5dc2aef5eeaa8f/1.pack
+.angular/cache/15.0.4/angular-webpack/8c86f9a16fb1d13717a44ae13f5dc2aef5eeaa8f/index.pack
+.angular/cache/15.0.4/angular-webpack/8c86f9a16fb1d13717a44ae13f5dc2aef5eeaa8f/index.pack.old
+.angular/cache/15.0.4/babel-webpack/710f0428157b557c5c6a0d6d06cba40b3c20c6934a8a20fb9d5265471db37053.json
+.angular/cache/15.0.4/babel-webpack/5656b340be750bd2c50a1f9bcfed2d659f1603e38ee3097da9db08b664d1b55e.json
+.angular/cache/15.0.4/babel-webpack/b187a339d7611f012ccb8033e0426ebfca11838fd1e272d9c8a72f1e67d61e69.json

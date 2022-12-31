@@ -14,7 +14,6 @@ export class AppComponent implements OnInit {
   ngOnInit() {}
 
   onCreatePost(postData: { title: string; content: string }) {
-    console.log(postData);
     // Send Http request
     this.http
       .post(
